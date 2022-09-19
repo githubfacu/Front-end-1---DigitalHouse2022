@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="flex">
+        <h1>Añadí tu super!</h1>
+        <p>Agrega tu personaje favorito completando las opciones</p>
+    
+    <form action="/registro" method="POST">
+
+    <div class="divuno">
+        <label for="nombre">*Nombre</label>
+        <input class="campovacio" type="text" name="nombre" id="nombre">
+
+        <label for="especie">*Especie</label>
+        <input class="campovacio" type="text" name="nombre" id="especie" placeholder="Especie">
+    </div>
+
+    <div class="divuno">
+        <label for="fecha">Fecha</label>
+        <input class="campovacio" type="date" name="fecha">
+
+        <label for="avatar">Agregar foto</label>
+        <input type="file" name="avatar" accept=".jpg" multiple>
+    </div>
+
+    <section class="checks">
+        <textarea name="descripcion" placeholder="Descripción"></textarea>
+        <div>
+        <label>Poderes</label>
+        <label><input type="checkbox" name="poderes" value="volar">Volar</label>
+        <label><input type="checkbox" name="poderes" value="superinteligencia">Superinteligencia</label>
+        <label><input type="checkbox" name="poderes" value="vista de rayo lazer">Vista de rayo lazer</label>
+        <label><input type="checkbox" name="poderes" value="billetera gorda">Billetera gorda</label>
+
+        <label>Tipo de personaje</label>
+        <label><input type="radio" name="tipo de personaje" value="heroe">Heroe / Heroina</label>
+        <label><input type="radio" name="tipo de personaje" value="villano">Villano / Villana</label>
+        </div>
+    </section>
+        <button type="submit">Añadir</button>
+
+    </form>
+
+    </section>
+    
+</body>
+
+</html>

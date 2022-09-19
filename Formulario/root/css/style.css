@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00669F;
+    color: white;
+    width: 66vw;
+    height: 85vh;
+    border: #1CD1B0 2px solid;
+    border-radius: 49px;
+}
+h1{
+    font-style: 700;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+form{    
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 87%;
+}
+.divuno{
+    display: flex;
+
+    height: 20%;
+}
+
+.campovacio{
+    border-radius: 10px;
+    border: none;
+    height: 48%;
+}
+.checks{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40%;
+}
+.checks div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.descripcion{
+    border-radius: 10px;
+    border: none;
+    height: 100%;
+    width: 50%;
+}
+
+
+button{
+    background-color: #1CD1B0;
+    font-size: 40px;
+    font-weight: 700;
+    border: none;
+    border-radius: 15px;
+}
